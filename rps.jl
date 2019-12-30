@@ -22,8 +22,6 @@ function start()
 
         print("Enter q if you want to quit: ")
         again = readline()
-        if again == "q"
-            break
-        end
+        (again == "q") ? break : continue
     end
 end
